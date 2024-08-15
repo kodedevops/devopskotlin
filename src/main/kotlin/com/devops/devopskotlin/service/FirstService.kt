@@ -6,14 +6,14 @@ import org.springframework.stereotype.Service
 class FirstService {
 
     fun sayHello(): String {
-        return "Hello World";
+        return "Hello Kotlin";
     }
 
     fun getDemoList() : List<String> {
-        return listOf("delhi", "calcutta", "chennai", "mumbai")
+        return listOf("delhi", "calcutta", "chennai", "mumbai", "kotlin")
     }
 
     fun getDemoMap(): Map<String, String> {
-        return mapOf("id" to "1", "email" to "abcd@abcd.com")
+        return mapOf("id" to "1", "email" to "abcd@abcd.com", "lang" to "kotlin")
     }
 }
