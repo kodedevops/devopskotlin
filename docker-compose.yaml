@@ -1,0 +1,5 @@
+services:
+  spring-boot-kotlin-app:
+    image: santoshmondal/devopskotlin:latest
+    ports:
+      - "8080:8080"
