@@ -1,10 +1,11 @@
 # Getting Started
 Public Url to Test After deployment
 ```
-http://IP_ADDRESS:PORT/first/health
-http://IP_ADDRESS:PORT/first/hello
-http://IP_ADDRESS:PORT/first/list
-http://IP_ADDRESS:PORT/first/map
+http://IP_ADDRESS:PORT/kotlin-service/first/
+http://IP_ADDRESS:PORT/kotlin-service/first/health
+http://IP_ADDRESS:PORT/kotlin-service/first/hello
+http://IP_ADDRESS:PORT/kotlin-service/first/list
+http://IP_ADDRESS:PORT/kotlin-service/first/map
 ```
 
 

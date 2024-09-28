@@ -10,6 +10,11 @@ import org.springframework.web.bind.annotation.RestController
 @RequestMapping("/first")
 class FirstController(val firstService: FirstService) {
 
+    @GetMapping("/")
+    fun sayHelloDefault(): Pair<String, String> {
+        return Pair("Key1", "Hello World");
+    }
+
     @GetMapping("/hello")
     fun sayHello(): String {
         return firstService.sayHello();
